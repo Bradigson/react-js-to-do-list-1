@@ -1,0 +1,42 @@
+:root{
+    --font-style: 'Indie Flower', cursive;
+}
+.form{
+    position: fixed;
+    width: 100%;
+    height:32vh;
+    z-index: 99;
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px;
+    font-family: 'Indie Flower', cursive;
+}
+.h1{
+    font-family: 'Indie Flower', cursive;
+    font-size:35px;
+    font-weight: 800;
+
+}
+.input-price, .input-task{
+    margin-right:5px;
+}
+.input-price::placeholder{
+    color:#000;
+}
+.input-task::placeholder{
+    color:#000
+}
+.accordion{
+    position:fixed;
+    width: 100%;
+    /* z-index:999 !important; */
+}
+
+#headingOne{
+    font-family: var(--font-style);
+}
+

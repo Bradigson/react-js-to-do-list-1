@@ -1,0 +1,130 @@
+:root{
+    --font-style: 'Indie Flower', cursive;
+     
+}
+
+.screen{
+    background:#eee;
+    height:100px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:10px;
+    
+}
+.screen > input{
+    background:none;
+    border:none;
+    text-align: right;
+    font-size:35px;
+    font-weight: 700;
+    width:320px;
+    color:rgba(26,26,26,.7);
+    pointer-events: none;
+    font-family: var(--font-style);
+
+}
+.sign, .number{
+    background:rgba(204, 209, 209 );
+    border-radius:10em;
+    color:#fff;
+    font-weight: 600;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+    width:50px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    font-family: var(--font-style);
+}
+.number{
+
+    background: none;
+    color:#262626;
+    font-size:40px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    font-family: var(--font-style);
+}
+.equal{
+    /* background:rgba(204, 209, 209 ); */
+    border-radius:10em;
+    color:#fff;
+    font-weight: 600;
+    font-size: 25px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+    width:50px;
+    height: 50px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    font-family: var(--font-style);
+
+
+}
+
+
+.container-total{
+    
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.total{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--font-style);
+}
+
+
+.total{
+
+    animation-name: total;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+}
+
+@keyframes total{
+    0%{
+        transform: scale(1.1);
+    }
+}
+
+
+
+@media screen and (min-width:375px){
+ 
+    .sign, .number{
+       
+        font-size: 15px;
+       
+      
+    }
+    .numbers{
+        margin-left:-10px
+    }
+    .number{
+    
+        background: none;
+        color:#262626;
+        font-size:30px;
+        display: flex;
+        place-content: center;
+        align-items: center;
+        font-family: var(--font-style);
+    }
+    .equal{
+        
+        font-weight: 600;
+        font-size: 25px;
+        
+    
+    
+    }
+}
