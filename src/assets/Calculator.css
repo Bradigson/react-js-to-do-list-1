@@ -103,7 +103,8 @@
     .sign, .number{
        
         font-size: 15px;
-       
+        width:35px;
+        height: 35px;
       
     }
     .numbers{

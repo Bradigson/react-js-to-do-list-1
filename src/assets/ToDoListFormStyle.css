@@ -40,3 +40,12 @@ form{
     font-family: var(--font-style);
 }
 
+
+
+@media screen and (min-width:375px){
+
+    .h1{
+        font-size:25px;
+    }
+
+}

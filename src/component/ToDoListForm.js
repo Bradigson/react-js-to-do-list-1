@@ -29,7 +29,7 @@ const ToDoListForm = (props)=>{
     return(
         <div className="text-center form ">
           
-            <h1 className="h1 pt-3">To Do List</h1>
+            <h1 className="h1 pt-1 ">To Do List</h1>
             <form onSubmit={handleSubmit}>
                 
                 <input
