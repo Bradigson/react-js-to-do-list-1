@@ -43,7 +43,7 @@ const Calculator = (props)=>{
                     <b>RD$:<span className="acumulado">{pay}</span>.00</b>
                 </span>
             </div>
-            <div className='screen mt-4'>
+            <div className='screen mt-3'>
                 <input type="text" value={add} />
             </div>
             <div className='mt-4'>
