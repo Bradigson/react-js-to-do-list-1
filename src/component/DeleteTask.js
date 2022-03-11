@@ -13,7 +13,7 @@ const DeleteTask = (props) =>{
             <ul className='all-task'>
                 <span><input type="checkbox" checked={state} onChange={handleCheck} className='form-check-input' />
                 </span>
-                <span className={`${state ? 'change' : ''}`}>value={props.getTaskToDelete}</span>
+                <span className={`${state ? 'change' : ''}`}>{props.getTaskToDelete}</span>
                 <span><button className='btn btn-danger' onClick={handleDelete}>X</button></span>
             </ul>
         </div>
