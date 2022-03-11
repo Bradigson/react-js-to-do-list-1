@@ -19,6 +19,7 @@ const ToDoListStorage = ()=>{
             <ToDoListForm getTask={allTaskStored}/>
             <div className='task pt-3'>
                 {
+                    
                     taskStored.map((tasks, index)=>{
                         return(
                             <DeleteTask key={tasks.toString() }
